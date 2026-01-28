@@ -1,0 +1,476 @@
+DebugMenu
+{
+	"width"		"1250"
+	"height"	"880"
+
+		"NPC stuff"
+	{
+		"Security Guard"
+		{
+			"command"	"npc_create monster_barney"
+		}
+		"Scientist"
+		{
+			"command"	"npc_create monster_scientist"
+		}
+		"HECU Soldier"
+		{
+			"command"	"npc_create monster_human_grunt"
+		}
+		"Assassin"
+		{
+			"command"	"monster_assassin"
+		}
+		"Vortigaunt"
+		{
+			"command"	"npc_create monster_alien_slave"
+		}
+		"Houndeye"
+		{
+			"command"	"npc_create monster_houndeye"
+		}
+		"Zombie"
+		{
+			"command"	"npc_create monster_zombie"
+		}
+		"Headcrab"
+		{
+			"command"	"npc_create monster_headcrab"
+		}
+		"Gonarch"
+		{
+			"command"	"npc_create monster_bigmomma"
+		}
+		"Gargantua"
+		{
+			"command"	"monster_gargantua"
+		}
+		"Bullsquid"
+		{
+			"command"	"npc_create monster_bullchicken"
+		}
+		"Ichthyosaur"
+		{
+			"command"	"npc_create monster_ichthyosaur"
+		}
+		"Nihilant"
+		{
+			"command"	"npc_create monster_nihilanth"
+		}
+		"Tentacle"
+		{
+			"command"	"npc_create monster_tentacle"
+		}
+		"Alien Controller"
+		{
+			"command"	"monster_alien_controller"
+		}
+		"Alien Grunt"
+		{
+			"command"	"monster_alien_grunt"
+		}
+		"Osprey"
+		{
+			"command"	"npc_create monster_osprey"
+		}
+		"Flyer"
+		{
+			"command"	"npc_create monster_flyer"
+		}
+		"Xen Hair"
+		{
+			"command"	"npc_create monster_xen_hair"
+		}
+		"Xen Hull"
+		{
+			"command"	"npc_create monster_xen_hull"
+		}
+		"Xen plantlight"
+		{
+			"command"	"npc_create monster_xen_plantlight"
+		}
+		"Xen spore (large)"
+		{
+			"command"	"npc_create monster_xen_spore_large"
+		}
+		"Xen spore (medium)"
+		{
+			"command"	"npc_create monster_xen_spore_medium"
+
+		}
+		"Xen spore (small)"
+		{
+			"command"	"npc_create monster_xen_spore_small"
+		}
+		"Xen tree"
+		{
+			"command"	"npc_create monster_tree"
+		}
+		"Xen Ttrigger"
+		{
+			"command"	"npc_create xen_trigger"
+		}
+		"Disable/Enable AI"
+		{
+			"command"	"ai_disable"
+		}
+	}
+	
+"Player Stuff"
+	{
+			"Godmode Off/On"
+		{
+			"command"	"god"
+		}
+		"Noclip(Flymode)"
+		{
+			"command"	"noclip"
+		}
+		"Get all weapons"
+		{
+			"command"	"impulse 101"
+		}
+		"Give ammo for weapon"
+		{
+			"command"	"givecurrentammo"
+		}
+		"Notarget On/Off"
+		{
+			"command"	"notarget"
+		}
+		"Restart Map"
+		{
+			"command"	"restart"
+		}
+		"Thirdperson"
+		{
+			"command"	"thirdperson"
+		}
+		"Firstperson"
+		{
+			"command"	"firstperson"
+		}
+		"Suicide"
+		{
+			"command"	"kill"
+		}
+		"Hide HUD"
+		{
+			"command"	"cl_drawhud 0"
+		}
+		"Show HUD"
+		{
+			"command"	"cl_drawhud 1"
+		}
+		"Strip Weapons"
+		{
+			"command"	"ent_create  player_weaponstrip targetname stent;ent_fire stent strip;ent_fire stent kill"
+		}
+		"Infinite Suit Power"
+		{
+			"command"	"sv_infinite_aux_power 1"
+		}
+		"Limited Suit Power"
+		{
+			"command"	"sv_infinite_aux_power 0"
+		}
+		"Low Gravity"
+		{
+			"command"	"sv_gravity 50"
+		}
+		"Normal Gravity"
+		{
+			"command"	"sv_gravity 600"
+		}
+		"High Gravity"
+		{
+			"command"	"sv_gravity 2000"
+		}
+		"(Console)Print entity list"
+		{
+			"command"	"dumpentityfactories"
+		}
+		"Slowmo"
+		{
+			"command"	"host_timescale 0.2"
+		}
+		"Normal time"
+		{
+			"command"	"host_timescale 1"
+		}
+		"Fast time"
+		{
+			"command"	"host_timescale 3"
+		}
+		"Stop all sounds"
+		{
+			"command"	"stopsound"
+		}
+		"Sv_cheats"
+		{
+			"command"	"sv_cheats 1"
+		}
+		"Remove NPCs"
+		{
+			"command"	"impulse 203"
+		}
+
+	}
+	
+"Maps"
+	{
+			"BM Inbound"
+		{
+			"command"	"map c0a0"
+		}
+		"(not working) Anomalous Materials"
+		{
+			"command"	"c1a0d"
+		}
+		"Unforseen Consequences"
+		{
+			"command"	"map c1a1"
+		}
+		"Office Complex"
+		{
+			"command"	"map c1a2"
+		}
+		"WE GOT HOSTILES"
+		{
+			"command"	"map c1a3"
+		}
+		"Blast Pit"
+		{
+			"command"	"map c1a4"
+		}
+		"Power Up"
+		{
+			"command"	"map c2a1"
+		}
+		"On A Rail"
+		{
+			"command"	"map c2a2"
+		}
+		"Apprehension"
+		{
+			"command"	"map c2a3"
+		}
+		"Residue Processing"
+		{
+			"command"	"map c2a4"
+		}
+		"Questionable Ethics"
+		{
+			"command"	"map c2a4d"
+		}
+		"Surface Tension"
+		{
+			"command"	"map c2a5"
+		}
+		"Forget about Freeman"
+		{
+			"command"	"map c3a1"
+		}
+		"Lambda Complex"
+		{
+			"command"	"map c3a2"
+		}
+		"Xen"
+		{
+			"command"	"map c4a1"
+		}
+		"Gonarch's Lair"
+		{
+			"command"	"map c4a2"
+		}
+		"Interloper"
+		{
+			"command"	"map c4a2b"
+		}
+		"Nihilanth"
+		{
+			"command"	"map c4a3"
+		}
+		"Ending"
+		{
+			"command"	"map c5a1"
+		}
+
+	}
+	
+"Entities"
+	{
+			"Magnum 357."
+		{
+			"command"	"give weapon_357"
+		}
+			"AR"
+		{
+			"command"	"give weapon_9mmAR"
+		}
+			"Crossbow"
+		{
+			"command"	"give weapon_crossbow"
+		}
+			"Crowbar"
+		{
+			"command"	"give weapon_crowbar"
+		}
+			"Egon"
+		{
+			"command"	"give weapon_egon"
+		}
+			"Tau Cannon"
+		{
+			"command"	"give weapon_gauss"
+		}
+			"Glock"
+		{
+			"command"	"give weapon_glock"
+		}
+			"Grenade"
+		{
+			"command"	"give weapon_handgrenade"
+		}
+			"Hornet Gun"
+		{
+			"command"	"give weapon_hornetgun"
+		}
+			"MP5"
+		{
+			"command"	"give weapon_mp5"
+		}
+			"Python"
+		{
+			"command"	"give weapon_python"
+		}
+			"Rpg"
+		{
+			"command"	"give weapon_rpg"
+		}
+			"Satchel"
+		{
+			"command"	"give weapon_satchel"
+		}
+			"SPAS"
+		{
+			"command"	"give weapon_shotgun"
+		}
+			"Snark"
+		{
+			"command"	"give weapon_snark"
+		}
+			"Tripmine"
+		{
+			"command"	"give weapon_tripmine"
+		}
+			"Q Destabilizer"
+		{
+			"command"	"give weapon_quantumdestabilizer"
+		}
+			"357. Ammo"
+		{
+			"command"	"give ammo_357"
+		}
+			"AR Ammo"
+		{
+			"command"	"give ammo_9mmAR"
+		}
+			"9mm Ammo Box"
+		{
+			"command"	"give ammo_9mmbox"
+		}
+			"9mm Magazine"
+		{
+			"command"	"give ammo_9mmclip"
+		}
+			"AR Grenades"
+		{
+			"command"	"give ammo_ARgrenades"
+		}
+			"SPAS ammo"
+		{
+			"command"	"give ammo_buckshot"
+		}
+			"Crossbow ammo"
+		{
+			"command"	"give ammo_crossbow"
+		}
+			"Tau Cannon Magazine"
+		{
+			"command"	"give ammo_egonclip"
+		}
+			"Gauss Gun Magazine"
+		{
+			"command"	"give ammo_gaussclip"
+		}
+			"Glock Magazine"
+		{
+			"command"	"give ammo_glockclip"
+		}
+			"MP5 magazine"
+		{
+			"command"	"give ammo_mp5clip"
+		}
+			"MP5 Grenades"
+		{
+			"command"	"give ammo_mp5grenades"
+		}
+			"Rpg Rocket"
+		{
+			"command"	"give ammo_rpgclip"
+		}
+			"Airtank"
+		{
+			"command"	"give item_airtank"
+		}
+			"Antidote"
+		{
+			"command"	"give item_antidote"
+		}
+			"H.E.V Battery"
+		{
+			"command"	"give item_battery"
+		}
+			"Health Kit"
+		{
+			"command"	"give item_healthkit"
+		}
+			"Jetpack"
+		{
+			"command"	"give item_longjump"
+		}
+			"Security"
+		{
+			"command"	"give item_security"
+		}
+			"Soda can"
+		{
+			"command"	"give item_sodacan"
+		}
+			"H.E.V Suit"
+		{
+			"command"	"give item_suit"
+		}
+
+	}
+	
+"Tools"
+	{
+			"Spawn gibs"
+		{
+			"command"	"impulse 102"
+		}
+			"Developer Mode"
+		{
+			"command"	"developer 1"
+		}
+			"Verbose Dev Mode"
+		{
+			"command"	"developer 2"
+		}
+			"Turn off Dev Mode"
+		{
+			"command"	"developer 0"
+		}
+
