@@ -2,7 +2,7 @@ VGUI for Half-Life source, special thanks to Hds46 for the method.
 
 Modified myself the whole menu to make it compatible for Half-life: source.
 
-Tutorial: Drag the script file to the Half-life 2 folder, Half-life:source uses the Half-life 2 folder.
+Tutorial: Drag the script file called "debugoptions" to the Half-life 2 folder, Half-life: source uses the Half-life 2 folder.
 
 Tested on:
 
